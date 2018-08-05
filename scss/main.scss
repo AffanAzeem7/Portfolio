@@ -71,6 +71,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
+  grid-row: 2;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
   .bio-image {
@@ -119,7 +120,7 @@ main {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
 
